@@ -1,0 +1,89 @@
+dnsenum VERSION:1.2.6
+
+-----   itera.ac.id   -----
+
+
+Host's addresses:
+__________________
+
+itera.ac.id.                             300      IN    A        103.211.143.100
+
+
+Name Servers:
+______________
+
+ns1.he.net.                              42767    IN    A        216.218.130.2
+ns1.itera.ac.id.                         2160     IN    A        103.211.143.2
+ns2.he.net.                              43965    IN    A        216.218.131.2
+ns3.he.net.                              44001    IN    A        216.218.132.2
+ns4.he.net.                              43965    IN    A        216.66.1.2
+ns5.he.net.                              43945    IN    A        216.66.80.18
+
+                                                                                                                                                                        
+Mail (MX) Servers:                                                                                                                                                      
+___________________                                                                                                                                                     
+                                                                                                                                                                        
+alt1.aspmx.l.google.com.                 293      IN    A        173.194.202.26                                                                                         
+aspmx.l.google.com.                      293      IN    A        74.125.24.26
+aspmx2.googlemail.com.                   293      IN    A        173.194.202.26
+alt2.aspmx.l.google.com.                 293      IN    A        142.250.115.26
+
+                                                                                                                                                                        
+Trying Zone Transfers and getting Bind Versions:                                                                                                                        
+_________________________________________________                                                                                                                       
+                                                                                                                                                                        
+                                                                                                                                                                        
+Trying Zone Transfer for itera.ac.id on ns1.he.net ... 
+AXFR record query failed: NOTAUTH
+
+Trying Zone Transfer for itera.ac.id on ns1.itera.ac.id ... 
+AXFR record query failed: Connection timed out
+
+Trying Zone Transfer for itera.ac.id on ns3.he.net ... 
+AXFR record query failed: NOTAUTH
+
+Trying Zone Transfer for itera.ac.id on ns5.he.net ... 
+AXFR record query failed: NOTAUTH
+
+Trying Zone Transfer for itera.ac.id on ns2.he.net ... 
+AXFR record query failed: NOTAUTH
+
+Trying Zone Transfer for itera.ac.id on ns4.he.net ... 
+AXFR record query failed: NOTAUTH
+
+                                                                                                                                                                        
+Brute forcing with /usr/share/dnsenum/dns.txt:                                                                                                                          
+_______________________________________________                                                                                                                         
+                                                                                                                                                                        
+abc.itera.ac.id.                         300      IN    A        103.211.143.240                                                                                        
+apps.itera.ac.id.                        300      IN    A        103.211.143.92
+blog.itera.ac.id.                        300      IN    A        103.211.143.3
+directory.itera.ac.id.                   300      IN    A        103.211.143.96
+host.itera.ac.id.                        300      IN    A        103.211.143.20
+mail.itera.ac.id.                        300      IN    A        103.211.143.74
+ns1.itera.ac.id.                         186      IN    A        103.211.143.2
+repository.itera.ac.id.                  300      IN    A        103.211.143.60
+ta.itera.ac.id.                          300      IN    A        103.211.143.24
+tse.itera.ac.id.                         300      IN    A        103.211.143.24
+vpn.itera.ac.id.                         300      IN    A        103.211.143.245
+www.itera.ac.id.                         47       IN    A        103.211.143.100
+
+                                                                                                                                                                        
+itera.ac.id class C netranges:                                                                                                                                          
+_______________________________                                                                                                                                         
+                                                                                                                                                                        
+ 103.211.143.0/24                                                                                                                                                       
+
+                                                                                                                                                                        
+Performing reverse lookup on 256 ip addresses:                                                                                                                          
+_______________________________________________                                                                                                                         
+                                                                                                                                                                        
+                                                                                                                                                                        
+0 results out of 256 IP addresses.
+
+                                                                                                                                                                        
+itera.ac.id ip blocks:                                                                                                                                                  
+_______________________                                                                                                                                                 
+                                                                                                                                                                        
+                                                                                                                                                                        
+done.

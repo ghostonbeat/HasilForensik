@@ -1,0 +1,29 @@
+Starting Nmap 7.91 ( https://nmap.org ) at 2021-06-15 05:05 WIB
+Nmap scan report for 103.211.143.20
+Host is up (0.047s latency).
+Not shown: 984 filtered ports
+PORT     STATE  SERVICE
+20/tcp   closed ftp-data
+21/tcp   open   ftp
+22/tcp   open   ssh
+25/tcp   open   smtp
+53/tcp   open   domain
+80/tcp   open   http
+110/tcp  open   pop3
+113/tcp  closed ident
+143/tcp  open   imap
+443/tcp  open   https
+465/tcp  open   smtps
+587/tcp  open   submission
+993/tcp  open   imaps
+995/tcp  open   pop3s
+2000/tcp open   cisco-sccp
+5060/tcp open   sip
+Device type: general purpose|storage-misc|firewall
+Running (JUST GUESSING): Linux 4.X|3.X|2.6.X (94%), Synology DiskStation Manager 5.X (86%), WatchGuard Fireware 11.X (86%), FreeBSD 6.X (85%)
+OS CPE: cpe:/o:linux:linux_kernel:4.4 cpe:/o:linux:linux_kernel:3 cpe:/o:linux:linux_kernel:2.6.32 cpe:/o:linux:linux_kernel cpe:/a:synology:diskstation_manager:5.1 cpe:/o:watchguard:fireware:11.8 cpe:/o:freebsd:freebsd:6.2
+Aggressive OS guesses: Linux 4.4 (94%), Linux 3.10 - 3.12 (92%), Linux 3.10 - 3.16 (91%), Linux 4.0 (91%), Linux 3.10 (90%), Linux 4.9 (89%), Linux 3.8 (88%), Linux 2.6.32 (87%), Linux 3.11 - 4.1 (86%), Linux 2.6.39 (86%)
+No exact OS matches for host (test conditions non-ideal).
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 32.48 seconds
